@@ -1,7 +1,7 @@
 # REACT-Portfolio:briefcase:
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-![SCREENSHOT OF PORFOLIO FRONT PAGE]()
+![SCREENSHOT OF PORTFOLIO FRONT PAGE]()
 
 ## USER STORY:
 "AS AN employer looking for candidates with experience <br>
@@ -26,15 +26,20 @@ SO THAT I can assess whether they're a good candidate <br>
 
    To install dependancies, run the following commands:
 
+     
+     `npm install` to install node_modules, <br>
+      `npm start` to run in command line  
+     ----
+     `npm i express`
+     ----
+     ``
+     ----
+     ``-
+     ----
+
      ```
-     npm install
-     ```
-     ```
-     npm i express
-     ```
-     ```
-     npm i 
-     ```
+     I used www.coolers.co to generate a color scheme:[[ https://coolors.co/e8e1e1-dad2d3-cccccc-928283-4f4041]
+     
      
 
    ## Usage:
