@@ -6,7 +6,8 @@
     z-index: 9999;
     opacity: .9;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    padding: 2%;
     align-items: right;
 }
 .NavBar nav ul {

@@ -17,7 +17,7 @@ const About = () => {
           creating. <br></br> I'm currently on a journey to develop <br></br>
           simplicity in accessability with an aesthetic touch.
         </h2>
-        <img className={classes.Prof} src={prof} alt="profile"></img>
+        <img className={classes.Profile} src={prof} alt="profile"></img>
         
       </div>
     </div>
