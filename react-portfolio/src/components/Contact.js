@@ -23,7 +23,7 @@ function Contact() {
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
-        setErrorMessage("Your email is invalid.");
+        setErrorMessage("E-mail is invalid.");
       } else {
         setErrorMessage("");
       }

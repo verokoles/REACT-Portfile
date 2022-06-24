@@ -4,28 +4,23 @@ import React from "react";
 function About() {
   return (
     <div>
-      <p className="content is-medium">Junior Developer</p>
+      <p className="content is-medium">Hello, I'm</p>
+      <strong>Veronica Kolesnikov</strong>
       <hr />
       <img
         className="my-pic"
         src={process.env.PUBLIC_URL + "react-portfolio/public/prof.jpg"}
         alt="Veronica Kolesnikov"
       />
-      <p className="content is-italic mt-4">
-      Hello and welcome! 
-      <br>
+      <p className="content mt-4">
       I am a junior web developer in San Antonio, TX
-      <br> 
       with a passion for problem solving.
-      <br>
-      On a journey to creating
-      <br>
+      I'm currently on a journey to develop
       <span>simplicity in accessability</span>
-      <br>
       with an aesthetic touch.
       </p>
     </div>
-  );
+  )
 }
 
 export default About;

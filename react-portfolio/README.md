@@ -32,12 +32,11 @@ SO THAT I can assess whether they're a good candidate <br>
      ----
      `npm i express`
      ----
-     ``
+     `npx create-react-app react-portfolio`
      ----
-     ``-
+     `npx create-react-app react-footer`-
      ----
 
-     ```
      I used www.coolers.co to generate a color scheme:[[ https://coolors.co/e8e1e1-dad2d3-cccccc-928283-4f4041]
      
      

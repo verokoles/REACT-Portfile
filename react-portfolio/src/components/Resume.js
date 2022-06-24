@@ -9,7 +9,7 @@ function Resume() {
 
         <a
           className="button is-primary"
-          href={process.env.PUBLIC_URL + "/emily-mayeski-resume.pdf"}
+          href={process.env.PUBLIC_URL + "file:///C:/Users/Titov/Desktop/vkres.pdf"}
           target="_blank"
           rel="noreferrer"
         >
@@ -20,15 +20,15 @@ function Resume() {
         </a>
       </div>
       <div className="column">
-        <p className="content is-medium">Skills</p>
+        <p className="content is-medium">Skills/Proficiences</p>
         <hr />
         <ul>
           <li>HTML, CSS, Javascript</li>
           <li>OpenWeatherAPI, JSON</li>
           <li>Sequelize, MySQL</li>
-          <li>React</li>
+          <li>React.js</li>
           <li>Markdown</li>
-          <li>Git</li>
+          <li>Git Commands</li>
           <li>Github Repo Management</li>
         </ul>
       </div>
