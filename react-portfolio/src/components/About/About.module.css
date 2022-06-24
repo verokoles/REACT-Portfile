@@ -1,0 +1,50 @@
+.About {
+    background: rgb(225, 211, 225);
+    display: flex;
+    height: 630px;
+    padding-top: 100px;
+    position: relative;
+    align-items: right;
+
+}
+
+.About .Container .Hello {
+    margin-top: 200px;
+    font-size: bold;
+    color:rgb(48, 37, 48);
+
+}
+
+.About .Container h1 {
+    margin-top: 85px;
+   text-align: right;
+   padding-left: 550px;
+   color:rgb(130, 100, 130);
+}
+
+.About .Container .Name {
+    color:rgb(130, 100, 130);
+    margin: 0;
+}
+
+
+.About .Container h2{
+    font-size: 20px;
+    position: relative;
+    text-align: right;
+    justify-content: space-around;
+    color:rgb(62, 50, 62);
+
+
+}
+.About .Container .Prof {
+    display: flex;
+    align-items: left;
+    height: 85%;
+    border-top-right-radius: 175px;
+        border-top-left-radius: 175px;
+        border-bottom-right-radius: 175px;
+    margin: 65px;
+    margin-top: -350px;
+
+}
