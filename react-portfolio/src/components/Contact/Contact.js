@@ -1,6 +1,8 @@
 //contact box with name, email and message
 // import React, { useState } from "react";
 // import { validateEmail } from "../../utils/helpers";
+import classes from './Contact.module.css';
+import PageHeader from './../PageHeader/PageHeader';
 
 const Contact = () => {
   return (

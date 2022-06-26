@@ -1,0 +1,30 @@
+.Home {
+    background: rgb(179, 171, 179);
+    display: flex;
+    height: 380px;
+    padding-top: 80px;
+    position: relative;
+
+}
+.Home .Container {
+    position: absolute;
+    top: 45%;
+    left: 13%;
+
+
+}
+.Home .Container h1{
+    margin: 0;
+    color:rgb(251, 246, 251)
+
+
+}
+.Home .Container .Hello {
+    font-size: 82px;
+    text-align: left;
+    padding-top: 2%;
+}
+.Home .Container h2 {
+    color:rgb(70, 57, 70);
+    text-align: left;
+}

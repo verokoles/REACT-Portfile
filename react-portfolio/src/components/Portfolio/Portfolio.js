@@ -1,7 +1,6 @@
 // page section that showcases 6 projects
-
-import React from "react";
-// import Project from "./Project";
+import classes from './Portfolio.module.css';
+import PageHeader from './../PageHeader/PageHeader';
 
 const Portfolio = () => {
   return (

@@ -1,25 +1,25 @@
 // photo and bio on this page
 // import React from "react";
 import classes from "./About.module.css";
-import prof from "./../../img/prof.jpg";
+import me from "./../../img/prof.jpg";
+import PageHeader from "./../PageHeader/PageHeader";
 
 const About = () => {
   return (
-    <div className={classes.About}>
+    <div className={classes.AboutMe}>
+      <PageHeader title={"ABOUT ME"} />
       <div className={classes.Container}>
-        <h1 className={classes.Hello}>Hello, there.</h1>
-        <h1 className={classes.Name}>
-         I'm Veronica Kolesnikov
-        </h1>
-        <h2>
-          A junior web developer in San Antonio, TX <br></br>
-          with a passion for
-          creating. <br></br> I'm currently on a journey to develop <br></br>
-          simplicity in accessability with an aesthetic touch.
-        </h2>
-        <img className={classes.Profile} src={prof} alt="profile"></img>
-        
-      </div>
+      <div className={classes.text}>
+        <h1> I'm Veronica Kolesnikov</h1>
+        <p>
+          A junior web developer based in San Antonio, TX. Passionate about
+          learning & creating. Check out my work and reach out!
+        </p>
+        </div>
+        <div className={classes.Photo}>
+          <img className={classes.Me} src={me} alt="profile"></img>
+        </div>
+        </div>
     </div>
   );
 };

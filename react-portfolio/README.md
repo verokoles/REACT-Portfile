@@ -1,7 +1,7 @@
 # REACT-Portfolio:briefcase:
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-![SCREENSHOT OF PORTFOLIO FRONT PAGE]()
+![SCREENSHOT OF PORTFOILIO](react-portfolio/src/img/react-front.png)
 
 ## USER STORY:
 "AS AN employer looking for candidates with experience <br>
@@ -11,8 +11,6 @@ React portfolio of work samples <br>
 SO THAT I can assess whether they're a good candidate <br>
  for an open position."
 
-![SCREENSHOT OF ]()
-![SCREENSHOT OF]()
 
 
    ## Table of Contents::mag:
@@ -37,8 +35,10 @@ SO THAT I can assess whether they're a good candidate <br>
      `npx create-react-app react-footer`-
      ----
 
-     I used www.coolers.co to generate a color scheme:[[ https://coolors.co/e8e1e1-dad2d3-cccccc-928283-4f4041]
-     
+     I used mainly CSS styling to edit the components pages and imported their corresponding .css file at the top using `import classes from './<Component>.module.css'`. <br>
+     The navigation bar points to all the sections (About Me, Portfoilio/work, Contact, and my Resume.) <br>
+     The footer contains logos that lead to my info on LinkedIn, Instagram, and Facebook. 
+
      
 
    ## Usage:
