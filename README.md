@@ -38,7 +38,7 @@ SO THAT I can assess whether they're a good candidate <br>
 
      I used mainly CSS styling to edit the components pages and imported their corresponding .css file at the top using `import classes from './<Component>.module.css'`. <br>
      The navigation bar points to all the sections (About Me, Portfoilio/work, Contact, and my Resume.) <br>
-     The footer contains logos that lead to my info on LinkedIn, Instagram, and Facebook. 
+     The footer contains logos that lead to my info on LinkedIn, Instagram, and Github. 
 
      
 
