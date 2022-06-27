@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "homepage": "http://verokoles.github.io/React-Portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
@@ -42,9 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-=======
-  "dependencies": {
-    "react-router-dom": "^6.3.0"
->>>>>>> 4808406535ad6c0257e85f3bd38a1794d7b2be8a
   }
 }
