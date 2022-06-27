@@ -16,6 +16,8 @@
 
 .Container h1 {
     color:rgb(255, 252, 255);
+    align-items: center;
+    text-align: center;
 
 }
 

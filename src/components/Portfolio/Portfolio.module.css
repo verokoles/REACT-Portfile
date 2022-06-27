@@ -1,0 +1,19 @@
+.Portfolio {
+    background: rgb(212, 206, 212);
+    padding-bottom: 13%;
+    height: 60vh;
+
+}
+
+.Portfolio .Container {
+    justify-content: space-evenly;
+
+}
+
+.Portfolio .Container .text h1{
+    font-weight: 900;
+    font-size: 45px;
+    text-align: right;
+    color:rgb(62, 50, 62);
+    margin-right: 10%;
+}

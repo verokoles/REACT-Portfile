@@ -6,7 +6,8 @@ import About from './components/About/About';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
 import Resume from './components/Resume/Resume';
-// import Router from 'react-router-dom';
+import Footer from './components/Footer/Footer';
+import Router from 'react-router-dom';
 
 const App = ()  => {
   return (
@@ -17,6 +18,7 @@ const App = ()  => {
         <Portfolio/>
         <Contact/>
         <Resume/>
+        <Footer/>
         </div>
         
     //     {/* <img src={logo} className="App-logo" alt="logo" /> */}

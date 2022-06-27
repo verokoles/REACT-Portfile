@@ -1,5 +1,5 @@
 .Home {
-    background: rgb(179, 171, 179);
+    background: rgb(251, 246, 251);
     display: flex;
     height: 380px;
     padding-top: 80px;
@@ -15,7 +15,7 @@
 }
 .Home .Container h1{
     margin: 0;
-    color:rgb(251, 246, 251)
+    color:rgb(184, 199, 184);
 
 
 }

@@ -4,8 +4,10 @@ import PageHeader from './../PageHeader/PageHeader';
 
 const Portfolio = () => {
   return (
-    <div>
-      <h1>Portfolio</h1>
+    <div className={classes.Portfolio} id="portfolio">
+      <PageHeader title={"PORTFOLIO"} />
+      <div className={classes.Projects}></div>
+
     </div>
   );
 }

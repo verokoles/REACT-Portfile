@@ -1,0 +1,11 @@
+.Contact {
+    display: flex;
+    background: rgb(212, 206, 212);
+    padding-bottom: 13%;
+    height: 60vh;
+
+}
+.Contact .Container {
+display: contents;
+
+}

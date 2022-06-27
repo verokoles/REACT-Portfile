@@ -6,8 +6,11 @@ import PageHeader from './../PageHeader/PageHeader';
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Get In Touch</h1>
+    <div className={classes.Contact} id="contact">
+    <PageHeader title={"GET IN TOUCH"} />
+    <div className={classes.Container}>
+
+    </div>
     </div>
   );
 }

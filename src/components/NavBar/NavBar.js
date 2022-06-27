@@ -3,7 +3,7 @@ import classes from './NavBar.module.css'
 
 const NavBar = () => {
   return (
-    <div className={classes.NavBar}>
+    <div className={classes.NavBar} id="navigation">
       <nav>
         <ul>
         <li>
@@ -28,33 +28,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-// function Navigation(props) {
-//   const tabs = ["About Me", "Portfolio", "Get In Touch", "Resume"];
-//   return (
-//     <div className="tabs is-centered">
-//       <ul className="nav nav-tabs">
-//         {tabs.map((tab) => (
-//           <li
-//             className={
-//               props.currentPage === tab ? "nav-item is-active" : "nav-item"
-//             }
-//             key={tab}
-//           >
-//             <a
-//               href={"#" + tab.toLowerCase()}
-//               // Whenever a tab is clicked on, page handles thorugh HandlePage function
-//               onClick={() => props.handlePageChange(tab)}
-//               className={
-//                 props.currentPage === tab ? "nav-link active" : "nav-link"
-//               }
-//             >
-//               {tab}
-//             </a>
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }
-
-// export default Navigation;
