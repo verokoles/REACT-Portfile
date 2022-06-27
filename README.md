@@ -3,8 +3,6 @@
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ![SCREENSHOT OF PORTFOLIO](react-portfolio/src/img/landing.png)
-![SCREENSHOT OF PORTFOLIO](react-portfolio/src/img/landing.png)
-
 ## USER STORY:
 "AS AN employer looking for candidates with experience <br>
  building single-page applications <br>
@@ -12,7 +10,7 @@ I WANT to view a potential employee's deployed <br>
 React portfolio of work samples <br>
 SO THAT I can assess whether they're a good candidate <br>
  for an open position."
-![SCREENSHOT OF PORTFOLIO](react-portfolio/src/img/landing.png)
+
 
 
    ## Table of Contents::mag:
