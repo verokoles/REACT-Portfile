@@ -60,5 +60,5 @@ SO THAT I can assess whether they're a good candidate <br>
   [More on Contribution Guidelines](https://github.com/verokoles/readme-generator/blob/f57cf6a98bf276960885496059df4b039247c985/contributing.md)
   
    ## Github-Pages:
-   See my REACT app deployed on Github Pages [Github.com](https://verokoles.github.io/React-Portfolio/)
+   See my REACT app deployed on Github Pages [Github.com](https://verokoles.github.io/react-portfolio/)
    
