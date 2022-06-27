@@ -2,7 +2,7 @@
 # REACT-Portfolio:briefcase:
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-![SCREENSHOT OF PORTFOLIO](react-portfolio/src/img/vk-react.png)
+![SCREENSHOT OF PORTFOLIO](react-portfolio/src/img/vkreact.png)
 
 ## USER STORY:
 "AS AN employer looking for candidates with experience <br>
@@ -26,7 +26,7 @@ SO THAT I can assess whether they're a good candidate <br>
    To install dependancies, run the following commands:
 
      
-     `npm install` to install node_modules, <br>
+     `npm install` to install node_modules, and 
       `npm start` to run in command line  
      ----
      `npm i express`
