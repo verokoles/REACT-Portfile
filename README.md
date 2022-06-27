@@ -2,7 +2,7 @@
 # REACT-Portfolio:briefcase:
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-![SCREENSHOT OF PORTFOLIO](react-portfolio/src/img/vkreact.png)
+![SCREENSHOT OF PORTFOLIO](react-portfolio/src/img/landing.png)
 
 ## USER STORY:
 "AS AN employer looking for candidates with experience <br>
