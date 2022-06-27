@@ -1,0 +1,36 @@
+.NavBar {
+    background: rgb(93, 81, 93);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    opacity: .9;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    align-items: right;
+}
+.NavBar nav ul {
+    list-style:  none;
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar nav ul li {
+    display: inline-block;
+    margin: 30px;
+}
+
+.NavBar nav ul li a {
+   text-decoration: none;
+   color:rgb(230, 225, 230);
+
+}
+
+.NavBar a:hover {
+    background-color: rgb(184, 199, 184);
+    color:rgb(128, 96, 128);
+    border-radius: 15px;
+      text-shadow: none;
+      padding: 15px;
+}
