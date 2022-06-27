@@ -2,7 +2,7 @@
 # REACT-Portfolio:briefcase:
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-![SCREENSHOT OF PORTFOILIO](react-portfolio/src/img/react-front.png)
+![SCREENSHOT OF PORTFOILIO](react-portfolio/src/img/vk-react.png)
 
 ## USER STORY:
 "AS AN employer looking for candidates with experience <br>
@@ -38,7 +38,9 @@ SO THAT I can assess whether they're a good candidate <br>
 
      I used mainly CSS styling to edit the components pages and imported their corresponding .css file at the top using `import classes from './<Component>.module.css'`. <br>
      The navigation bar points to all the sections (About Me, Portfoilio/work, Contact, and my Resume.) <br>
-     The footer contains logos that lead to my info on LinkedIn, Instagram, and Github. 
+     The footer contains logos that lead to my info on LinkedIn, Instagram, and Github. <br>
+     To deploy any changes I added, commited, and pushed to main, and then <br>
+     `npm run deploy` to save those changes to the live GitHub pages.
 
      
 
