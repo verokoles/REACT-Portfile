@@ -1,9 +1,9 @@
 // page section that showcases 6 projects
-// import classes from './Portfolio.module.css';
+import classes from './Portfolio.module.css';
 import React, { useState } from "react";
 import PageHeader from './../PageHeader/PageHeader';
 const Portfolio = () => {
-// const [projects1, setProjects1] = useState([
+
    
 //    {
 //     title: "Project 1: Event Seeker",
@@ -75,6 +75,9 @@ const Portfolio = () => {
 //       </div>
 //     </div>
 // );
+return(
+    <div></div>
+);
 };
 
 export default Portfolio;

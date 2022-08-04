@@ -11,7 +11,7 @@ const Resume = () => {
            <hr />
    <a
           className="button is-primary"
-          href={process.env.PUBLIC_URL + "file:///C:/Users/Titov/Desktop/vkres.pdf"}
+          href={process.env.PUBLIC_URL + "https://drive.google.com/file/d/1BMGvTu2hNtBLzvsieMGc-HKrCfP-DRIM/view?usp=sharing"}
           target="_blank"
           rel="noreferrer"
         >
