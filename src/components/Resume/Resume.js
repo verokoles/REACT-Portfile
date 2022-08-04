@@ -18,11 +18,11 @@ const Resume = () => {
           <span className="icon">
             <i className="fas fa-download"></i>
           </span>
-          <span>Download My Resume</span>
+          <span> DOWNLOAD RESUME</span>
         </a>
       </div>
       <div className="column">
-        <p className="content is-medium">Skills/Proficiences</p>
+        <p className="content is-medium">Skills</p>
         <hr />
         <ul>
           <li>HTML, CSS, Javascript</li>
