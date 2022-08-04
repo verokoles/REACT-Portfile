@@ -1,5 +1,5 @@
 .AboutMe{
-    background: rgb(242, 237, 242);
+    background: rgb(228, 221, 228);
     padding-bottom: 13%;
     height: 60vh;
 
@@ -38,7 +38,7 @@ justify-content: center;
 }
 
 .AboutMe .Container p {
-    font-size: 50px;
+    font-size: 40px;
     font-style: italic;
     text-align: right;
     color:rgb(62, 50, 62);
