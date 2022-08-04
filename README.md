@@ -20,7 +20,7 @@ SO THAT I can assess whether they're a good candidate <br>
    4. [ Contributing:handshake:](#contributing)
    5. [Link to Deployed App:octocat:](#github-pages)
 
-   ## Installation 
+   ## Installation:
 
    To install dependancies, run the following commands:
 
