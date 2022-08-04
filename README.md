@@ -2,7 +2,7 @@
 # REACT-Portfolio:briefcase:
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-![SCREENSHOT OF PORTFOLIO](react-portfolio/src/img/landing.png)
+![SCREENSHOT OF PORTFOLIO](react-portfolio/public/img/landing.png)
 ## USER STORY:
 "AS AN employer looking for candidates with experience <br>
  building single-page applications <br>
@@ -14,13 +14,13 @@ SO THAT I can assess whether they're a good candidate <br>
 
 
    ## Table of Contents::mag:
-   1. [ Installation ](#installation)
-   2. [ Usage ](#usage)
-   3. [ License ](#license)
-   4. [ Contributing ](#contributing)
-   5. [Link to Deployed App](#github-pages)
+   1. [ Installation:hammer_and_wrench:](#installation)
+   2. [ Usage:computer_mouse: ](#usage)
+   3. [ License:shield: ](#license)
+   4. [ Contributing:handshake:](#contributing)
+   5. [Link to Deployed App:octocat:](#github-pages)
 
-   ## Installation :hammer_and_wrench:
+   ## Installation 
 
    To install dependancies, run the following commands:
 

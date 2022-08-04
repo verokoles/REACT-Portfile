@@ -1,91 +1,80 @@
 // page section that showcases 6 projects
-import classes from './Portfolio.module.css';
+// import classes from './Portfolio.module.css';
+import React, { useState } from "react";
 import PageHeader from './../PageHeader/PageHeader';
-
 const Portfolio = () => {
-  return (
-    <div className={classes.Portfolio} id="portfolio">
-      <PageHeader title={"PORTFOLIO"} />
-      <div className={classes.Projects}></div>
-
-    </div>
-  );
-}
-export default Portfolio;
-
-// const projects = [
-//   {
-//     id: 0,
+// const [projects1, setProjects1] = useState([
+   
+//    {
 //     title: "Project 1: Event Seeker",
-//     languages: "HTML, CSS, Bulma, OpenWeather API, TicketMaster API, Javascript",
-//     image: "react-portfolio/public/event-seeker.png",
+//     body: "HTML, CSS, Bulma, OpenWeather API, TicketMaster API, Javascript",
+//     image: '/img/event-seeker.png',
 //     description: "A group worked together to make API requests using OpenWeather and TicketMaster. This application allows any user to search and attend a certains city's current local outdoor events and see what the weather will be like to plan and pack accordingly.",
-//     repo: "https://github.com/jwhitney2209/event-seeker",
+//     github: "https://github.com/jwhitney2209/event-seeker",
 //     live: "https://jwhitney2209.github.io/event-seeker/",
 //   },
 //   {
-//     id: 1,
 //     title: "Work Day Scheduler",
-//     languages: "HTML, CSS/Bootstrap, Javascript, jQuery, Moment.js",
-//     image: "react-portfolio/public/scheduler.png",
+//     body: "HTML, CSS/Bootstrap, Javascript, jQuery, Moment.js",
+//     image: '/img/scheduler.png',
 //     description:"A simple scheduler for anyone who wants to keep track of their plans during the work day.",
-//     repo: "https://github.com/verokoles/work-day-scheduler#built-with",
+//     github: "https://github.com/verokoles/work-day-scheduler#built-with",
 //     live: "https://verokoles.github.io/work-day-scheduler/",
 //   },
 //   {
-//     id: 2,
 //     title: "Project 2: Chatter Verse",
-//     languages: "html, css, js, handlebars",
-//     packages: "bcrypt, express handlebars.js, sequelize, express, Jest, mysql2",
-//     image: "react-portfolio/public/chatter.png",
+//     body: "html, css, js, handlebars",
+//     image: '/img/chatter.png',
 //     description:
-//       "",
-//       repo: "https://github.com/c0y01202/veest-news-crunch",
+//       "A group collaboration using SQL to create a beginner chatting app for users around the globe",
+//       github: "https://github.com/c0y01202/veest-news-crunch",
 //     live: "https://still-citadel-61156.herokuapp.com/",
     
 //   },
+// ]);
+
+// const [projects2, setProjects2] = useState([
 //   {
-//     id: 3,
 //     title: "Personal Basic Portfolio",
-//     languages: "HTML, CSS",
-//     image: "react-portfolio/public/profile.png",
+//     body: "HTML, CSS",
+//     image: '/img/profile.png',
 //     description: "A simply way to build a profile using only HTML and CSS.",
-//     repo: "https://github.com/verokoles/profile",
+//     github: "https://github.com/verokoles/profile",
 //     live: "https://verokoles.github.io/profile/",
 //   },
 //   {
-//     id: 4,
 //     title: "NOTED",
-//     languages: "HTML, CSS, JavaScript",
-//     image: "react-portfolio/public/noted.png",
-//     packages: "Node.js, Jest, Express",
+//     body: "HTML, CSS, JavaScript",
+//     image: '/img/noted.png',
 //     description:
 //       "An application that allows you to add, edit, and delete tasks.",
-//     repo: "https://github.com/verokoles/NOTED",
+//     github: "https://github.com/verokoles/NOTED",
 //     live: "https://mighty-sea-96505.herokuapp.com/",
 //   },
 //   {
-//     id: 5,
 //     title: "Java-Code-Quiz",
-//     languages: "HTML, CSS, Javascript",
-//     image: "react-portfolio/public/java-quiz.png",
+//     body: "HTML, CSS, Javascript",
+//     image: '/img/java-quiz.png',
 //     description:
 //       "A timed JavaScript-powered quiz about simple JS questions. Users can start, answer the questions, and see the highest score.",
-//     repo: "https://github.com/verokoles/java-code-quiz",
+//     github: "https://github.com/verokoles/java-code-quiz",
 //     live: "https://verokoles.github.io/java-code-quiz/",
 //   },
 
-// ];
+// ]);
+// return (
+//     <div className="my-4 is-fluid m-4">
+//       <div className="content has-text-centered">
+//       <PageHeader title={"PORTFOLIO"} />
+//       <div className='Portfolio' id="portfolio"></div>
 
-// function Portfolio() {
-//   return (
-//     <div>
-//       <p className="content is-medium">Portfolio</p>
-//       <hr />
-
-//       <Project projects={projects} />
+//       </div>
+//       <div className="columns is-multiline">
+//         <ProjectList1 projects={projects1} />
+//         <ProjectList2 projects={projects2} />
+//       </div>
 //     </div>
-//   );
-// }
+// );
+};
 
-// export default Portfolio;
+export default Portfolio;

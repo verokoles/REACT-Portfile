@@ -1,7 +1,7 @@
 // photo and bio on this page
 import React from "react";
 import classes from "./About.module.css";
-import me from "./../../img/prof.jpg";
+// import me from "/img/prof.jpg";
 import PageHeader from "./../PageHeader/PageHeader";
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
         </p>
         </div>
         <div className={classes.Photo}>
-          <img className={classes.Me} src={me} alt="profile"></img>
+          <img className={classes.Me} src={process.env.PUBLIC_URL + '/img/prof.jpg'} alt="profile"></img>
         </div>
         </div>
     </div>
